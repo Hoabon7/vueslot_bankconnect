@@ -1,20 +1,20 @@
 <template>
-  <div id="app">
+  <div id="main">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <ButtonMenu></ButtonMenu>
-    <Body></Body> -->
+    <ButtonMenu></ButtonMenu>
+    <Body></Body>
     <router-view />
   </div>
 </template>
 
 <script>
-// import ButtonMenu from "./components/ButtonMenu.vue";
-// import Body from "./components/Body.vue";
+import ButtonMenu from "./Menu/ButtonMenu.vue";
+import Body from "./Menu/Body.vue";
 export default {
-  name: "App",
+  name: "Main",
   components: {
-    // ButtonMenu,
-    // Body
+     ButtonMenu,
+     Body
     //MainCatagory
   },
 };
